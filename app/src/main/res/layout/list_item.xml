@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_id_alumno"
+        android:text="@string/id_alumno"
+        android:textColor="#f526"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_nombre"
+        android:text="@string/nombre"
+        android:textColor="#f52896"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_apellido_p"
+        android:text="@string/apellido_p"
+        android:textColor="#f55896"
+        android:textStyle="italic"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_apellido_m"
+        android:text="@string/apellido_m"
+        android:textColor="#f55896"
+        android:textStyle="italic"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_carrera"
+        android:text="@string/carrera"
+        android:textColor="#f55896"
+        android:textStyle="italic"
+        android:visibility="invisible"/>
+</LinearLayout>

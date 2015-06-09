@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JSON</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="id_alumno">Id_alumno</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido_p">Apellido Paterno</string>
+    <string name="apellido_m">Apellido Materno</string>
+    <string name="carrera">Carrera</string>
+    <string name="title_activity_vistaindividual">vistaindividual</string>
+</resources>
